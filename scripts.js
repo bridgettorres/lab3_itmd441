@@ -16,7 +16,6 @@ function updateForm(){
         err.innerHTML = "Invalid number";
         err.style.color = "#ff0000";
         err.style.fontSize = "50%";
-        err.style.display = "inline-block";
     } else {
         document.getElementById("errormsg").innerHTML = "";
         //read the value of the bill total field
