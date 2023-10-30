@@ -13,7 +13,7 @@ tipSlider.addEventListener("input", updateForm);
 function updateForm(){
     const letters = /[a-zA-Z]/;
     if (letters.test(billTotal.value) == true) {
-        err.innerHTML = "Invalid number";
+        err.innerHTML = "Invalid";
         err.style.color = "#ff0000";
         err.style.fontSize = "50%";
     } else {
