@@ -3,25 +3,26 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--<link rel="stylesheet" href="css/main.css" />-->
+    <link rel="stylesheet" href="css/style.css" />
     <title>Simple Tip Calculator</title>
 </head>
 <body>
-    <!--<script src="js/scripts.js"></script>-->
     <form>
         <h3>ITMD 4/541 - Lab3 - Bridget Torres</h3>
         <h1>Tip Calculator</h1>
 
         <label for="fbill">Bill Total:</label>
-        <input type="text" id="fbill" name="fbill"> <br>
+        <input type="text" id="fbill" name="fbill"> 
+        <p id="errormsg"></p>
         <label for="ftip">Tip:</label>
-        <input type="range" id="ftip" name="ftip" min="0" max="100"> <br>
+        <input type="range" id="ftip" name="ftip" min="0" max="100">
         <label for="fpercentage">Tip Percentage:</label>
-        <input type="text" id="fpercentage" name="fpercentage" disabled> <br>
+        <input type="text" id="fpercentage" name="fpercentage" disabled> 
         <label for="famount">Tip Amount:</label>
-        <input type="text" id="famount" name="famount" disabled> <br>
+        <input type="text" id="famount" name="famount" disabled> 
         <label for="ftotal">Total Bill with Tip:</label>
-        <input type="text" id="ftotal" name="ftotal" disabled <br>
+        <input type="text" id="ftotal" name="ftotal" disabled> 
     </form>
+    <script src="scripts.js"></script>
 </body>
 </html>
