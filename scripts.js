@@ -15,7 +15,7 @@ function updateForm(){
     if (letters.test(billTotal.value) == true) {
         err.innerHTML = "Invalid Input";
         err.style.color = "#ff0000";
-        err.style.fontSize = "50%";
+        err.style.fontSize = "60%";
     } else {
         document.getElementById("errormsg").innerHTML = "";
         //read the value of the bill total field
